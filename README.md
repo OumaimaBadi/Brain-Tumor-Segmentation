@@ -1,5 +1,5 @@
 # Brain Tumor Segmentation Using Deep Learning
-![Brain Tumor Cover Image](Images/Brain-tumor.PNG)
+![Brain Tumor Cover Image](Images/Brain_tumor.PNG)
 
 ## Project Overview
 This repository contains the work on using deep learning techniques for the automatic detection and precise segmentation of brain tumors from MRI images. Recent advances in deep learning have significantly enhanced the capabilities in medical imaging, particularly in neurology, by providing tools for faster and more accurate identification of brain pathologies.
@@ -33,9 +33,6 @@ Above is the comparison of model performances on several metrics such as IOU, Di
 ![Original Image, Mask, and Predicted Segmentation](Images/Results_segnet.PNG)
 
 The image above shows an example of the original MRI, the true mask, and the predicted segmentation by the SegNet model, illustrating how the model performs in practice.
-
-## Detailed Comparison in the Report
-The project report contains a comprehensive explanation of each model's approach and detailed comparisons using specific segmentation metrics. This in-depth analysis helps to understand the strengths and weaknesses of each architecture in the context of brain tumor segmentation.
 
 
 ## Detailed Comparison in the Report
