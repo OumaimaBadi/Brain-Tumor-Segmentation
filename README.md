@@ -37,6 +37,7 @@ The image above shows an example of the original MRI, the true mask, and the pre
 
 ## Detailed Comparison in the Report
 The project report contains a comprehensive explanation of each model's approach and detailed comparisons using specific segmentation metrics. This in-depth analysis helps to understand the strengths and weaknesses of each architecture in the context of brain tumor segmentation.
+The full report available [here](Report.pdf).
 
 ## Collaborations
 We welcome contributions from researchers and clinicians. If you are interested in collaborating or have suggestions to improve the models, please open an issue or submit a pull request.
