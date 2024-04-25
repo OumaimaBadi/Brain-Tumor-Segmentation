@@ -1,4 +1,5 @@
 # Brain Tumor Segmentation Using Deep Learning
+![Brain Tumor Cover Image](Images/Brain-tumor.PNG)
 
 ## Project Overview
 This repository contains the work on using deep learning techniques for the automatic detection and precise segmentation of brain tumors from MRI images. Recent advances in deep learning have significantly enhanced the capabilities in medical imaging, particularly in neurology, by providing tools for faster and more accurate identification of brain pathologies.
@@ -21,6 +22,21 @@ The models in this study are trained and tested on the "LGG MRI Segmentation Dat
 - **UNet**: A robust model for medical image segmentation with stable performance.
 - **DeepLabV3+**: Employs atrous convolutions to capture fine details without compromising segmentation quality.
 - **PSPNet**: Uses spatial pyramid pooling to understand structures at multiple scales.
+
+## Model Comparison Results
+![Model Comparison](Images/Comparaison.PNG)
+
+Above is the comparison of model performances on several metrics such as IOU, Dice Coefficient, Recall, Precision, and Loss. This comparison illustrates that DeepLabV3+ and Attention UNet provide robust results across all metrics, clearly outperforming other models.
+
+## Example SegNet Results
+
+![Original Image, Mask, and Predicted Segmentation](Images/Results_segnet.PNG)
+
+The image above shows an example of the original MRI, the true mask, and the predicted segmentation by the SegNet model, illustrating how the model performs in practice.
+
+## Detailed Comparison in the Report
+The project report contains a comprehensive explanation of each model's approach and detailed comparisons using specific segmentation metrics. This in-depth analysis helps to understand the strengths and weaknesses of each architecture in the context of brain tumor segmentation.
+
 
 ## Detailed Comparison in the Report
 The project report contains a comprehensive explanation of each model's approach and detailed comparisons using specific segmentation metrics. This in-depth analysis helps to understand the strengths and weaknesses of each architecture in the context of brain tumor segmentation.
